@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="topnav">
+    <a class="active" href="index.html"><strong>Home</strong></a>
+    <a href="portfolio.html"><strong>Portfolio</strong></a>
+    <a href="game.html"><strong>Game</strong></a>
+  </div>
+
+  <div class="hero-section">
+    <h1>Hi, I'm Salim</h1>
+    <p>Graphic Designer & Web Developer</p>
+  </div>
+
+  <!-- Main content -->
+  <div class="container">
+    <h1>Welcome to My Portfolio</h1>
+    <p>I'm a web developer and artist passionate about creating beautiful, functional websites.</p>
+    <p>Feel free to explore my work below.</p>
+</div>
+
+<div class="container">
+  <!-- Rest of your content (contact section, etc.) -->
+  <div class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:salimjones42@gmail.com">salimjones42@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/your-username" target="_blank">your-username</a></p>
+  </div>
+</div>
+
+    <!-- Premium Access Button -->
+<div class="premium-access">
+  <a href="premium-content.html" id="premium-button" style="display: none;">Go to Premium Content</a>
+</div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <!-- Paywall (hidden by default) -->
+<div id="paywall" class="paywall">
+  <div class="paywall-content">
+    <h3>Enter Code</h3>
+    <input type="password" id="code-input" placeholder="Code">
+    <div class="paywall-buttons">
+      <button id="submit-code">Submit</button>
+      <button id="cancel-btn">Cancel</button>
+    </div>
+    <p id="error-message" class="hidden">Incorrect code. Try "ECO123".</p>
+  </div>
+</div>
+
+  <!-- Shared JS -->
+  <script src="scripts/main.js"></script>
+</body>
+</html>

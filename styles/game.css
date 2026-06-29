@@ -1,0 +1,110 @@
+/* Rock, Paper, Scissors Styles */
+.rps-game {
+  text-align: center;
+  padding: 30px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 30px auto;
+}
+
+.rps-game h1 {
+  color: #FCB908;
+  font-family: 'Atomic Age', sans-serif;
+}
+
+.rps-game p {
+  color: #666;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.rps-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+.rps-choice {
+  flex: 1;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+}
+
+.rps-choice h3 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.choice-icon {
+  font-size: 5em;
+  margin: 20px 0;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.rps-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.rps-button {
+  padding: 12px 24px;
+  font-size: 1.2em;
+  background: #FCB908;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.rps-button:hover {
+  background: #FCE209;
+  transform: scale(1.05);
+}
+
+.rps-result {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px 0;
+  min-height: 60px;
+}
+
+.rps-result.win {
+  color: #4CAF50;
+}
+
+.rps-result.lose {
+  color: #f44336;
+}
+
+.rps-result.tie {
+  color: #2196F3;
+}
+
+/* Score Display Styles */
+.score-display {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 300px;
+}
+
+.score-display h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.score-display p {
+  margin: 10px 0;
+  font-size: 1.2em;
+  color: #666;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock, Paper, Scissors</title>
+  <!-- Link to the main CSS file -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- Link to the game-specific CSS file -->
+  <link rel="stylesheet" href="styles/game.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="topnav">
+    <a href="index.html"><strong>Home</strong></a>
+    <a href="portfolio.html"><strong>Portfolio</strong></a>
+    <a class="active" href="game.html"><strong>Game</strong></a>
+  </div>
+
+  <!-- Rock, Paper, Scissors Game -->
+<div class="rps-game">
+  <h1>Rock, Paper, Scissors</h1>
+  <p>Play Against The Computer!</p>
+
+  <!-- Score Display -->
+  <div class="score-display">
+    <h3>Score:</h3>
+    <p>Wins: <span id="wins">0</span></p>
+    <p>Losses: <span id="losses">0</span></p>
+    <p>Ties: <span id="ties">0</span></p>
+  </div>
+
+  <div class="rps-container">
+    <!-- User's choice -->
+    <div class="rps-choice user-choice" id="user-choice">
+      <h3>Your Choice:</h3>
+      <div class="choice-icon" id="user-icon">❓</div>
+    </div>
+
+    <!-- Computer's choice (hidden initially) -->
+    <div class="rps-choice computer-choice" id="computer-choice">
+      <h3>Computer's Choice:</h3>
+      <div class="choice-icon" id="computer-icon">❓</div>
+    </div>
+  </div>
+
+  <!-- Buttons for user to choose -->
+  <div class="rps-buttons">
+    <button class="rps-button" id="rock">🪨<strong> Rock</strong></button>
+    <button class="rps-button" id="paper">📄 <strong>Paper</strong></button>
+    <button class="rps-button" id="scissors">✂️ <strong>Scissors</strong></button>
+  </div>
+
+  <!-- Result display -->
+  <div class="rps-result" id="result">
+    <p>Make your choice!</p>
+  </div>
+
+  <!-- Play again button (hidden initially) -->
+  <button class="rps-button" id="play-again" style="display: none;">Play Again</button>
+</div>
+
+
+  <!-- Link to the game-specific JavaScript file -->
+  <script src="scripts/game.js"></script>
+</body>
+</html>

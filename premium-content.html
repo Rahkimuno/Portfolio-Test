@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Content</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/home.css">
+  <link rel="stylesheet" href="styles/premium.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="topnav">
+    <a href="index.html"><strong>Home</strong></a>
+    <a href="portfolio.html"><strong>Portfolio</strong></a>
+    <a href="game.html"><strong>Game</strong></a>
+  </div>
+
+  <!-- Main content -->
+  <div class="container">
+    <h1>Premium Content</h1>
+    <p>This is the unlocked premium content! You can only see this because you entered the correct code.</p>
+    <p>Enjoy the maze on this exclusive page.</p>
+
+    <!-- Maze Game -->
+    <div id="maze-container">
+      <h2>Maze Game</h2>
+      <p>Navigate through the maze to reach the goal!</p>
+      <canvas id="maze" width="400" height="400" tabindex="0"></canvas>
+      <div id="controls">
+        <button id="start-btn">Start Game</button>
+        <button id="reset-btn">Reset Game</button>
+      </div>
+      <p id="status">Press "Start Game" to begin!</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <!-- Link to the external JavaScript file -->
+  <script src="scripts/maze-game.js"></script>
+</body>
+</html>

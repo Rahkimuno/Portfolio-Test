@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio - Projects</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/portfolio.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="topnav">
+    <a href="index.html"><strong>Home</strong></a>
+    <a class="active" href="portfolio.html"><strong>Portfolio</strong></a>
+    <a href="game.html"><strong>Game</strong></a>
+  </div>
+
+  <!-- Main content -->
+  <div class="container">
+    <h1>My Portfolio</h1>
+    <p>Here are some of my design and coding projects.</p>
+
+    <!-- Design Projects Carousel -->
+    <h2>Design Project 1 - Mascot Design Illustration for a Local Library</h2>
+    <div class="carousel-container">
+      <div class="carousel">
+        <img src="assets/images/readerpre.jpg" alt="Draft Sheet" class="carousel-img">
+        <img src="assets/images/readerpost1.png" alt="Final Draft" class="carousel-img">
+      </div>
+    </div>
+
+    <h2>Design Project 2 - Clothing and Logo Designs to Promote an Artist's New Album</h2>
+    <div class="carousel-container">
+      <div class="carousel">
+        <img src="assets/images/artman.jpeg" alt="ARTman Tag" class="carousel-img">
+        <img src="assets/images/HandzWhite.png" alt="White Shirt 1" class="carousel-img">
+        <img src="assets/images/HandzWhiteRipple.png" alt="White Shirt 2" class="carousel-img">
+        <img src="assets/images/AP2.png" alt="Black Shirt 1" class="carousel-img">
+        <img src="assets/images/AP2Diff3.png" alt="Black Shirt 2" class="carousel-img">
+      </div>
+    </div>
+
+    <h2>Design Project 3</h2>
+    <div class="carousel-container">
+      <div class="carousel">
+        <img src="assets/images/readerpre.jpg" alt="Draft Sheet" class="carousel-img">
+        <img src="assets/images/readerpost1.png" alt="Final Draft" class="carousel-img">
+      </div>
+    </div>
+
+    <!-- Coding Projects -->
+    <h2>Coding Projects</h2>
+    <div class="project">
+      <h3>Coding Project 1 - Rock Paper Scissors Game</h3>
+      <p>Old Code ,Updated to be Playable in this Browser</p>
+      <a href="game.html" class="btn">Play Game</a>
+    </div>
+
+    <div class="project">
+      <h3>Coding Project 2 - Maze (Premium)</h3>
+      <p>This content is locked. Click the button to unlock it.</p>
+      <button id="unlock-btn" class="btn">Unlock Content</button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+  </footer>
+
+  <!-- Paywall (hidden by default) -->
+<div id="paywall" class="paywall">
+  <div class="paywall-content">
+    <h3>Enter Code</h3>
+    <input type="password" id="code-input" placeholder="Code">
+    <div class="paywall-buttons">
+      <button id="submit-code">Submit</button>
+      <button id="cancel-btn">Cancel</button>
+    </div>
+    <p id="error-message" class="hidden">Incorrect code. Try "ECO123".</p>
+  </div>
+</div>
+
+  <!-- Shared JS -->
+  <script src="scripts/main.js"></script>
+  <script src="scripts/carousel.js"></script>
+</body>
+</html>
